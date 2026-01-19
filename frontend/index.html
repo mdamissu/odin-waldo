@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where's Waldo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Where's Waldo?</h1>
+    <div id="game-container">
+        <img id="waldo-image" src="waldo.jpg" alt="Waldo Image">
+        <div id="target-box" class="hidden">
+            <select id="character-select">
+                <option value="">Select Character</option>
+                <option value="waldo">Waldo</option>
+                <option value="wizard">Wizard</option>
+                <option value="wilma">Wilma</option>
+            </select>
+            <button id="check-btn">Check</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
